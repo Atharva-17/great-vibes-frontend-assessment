@@ -131,7 +131,7 @@ function Product_Item({ products }) {
                                 <div class="h-screen w-screen flex justify-center items-center">
                                   <iframe
                                     className="h-full w-full"
-                                    src={`https://great-vibes-frontend-assessment.netlify.app/edit/${products.id}`}
+                                    src={`/edit/${products.id}`}
                                     title="edit"
                                   />
                                 </div>
