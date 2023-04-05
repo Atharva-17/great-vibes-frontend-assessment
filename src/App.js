@@ -14,9 +14,9 @@ function App() {
         <Route exact path="/add">
           <AddProduct />
         </Route>
-        <Route exact path="/edit/:id">
+        {/* <Route exact path="/edit/:id">
           <EditProduct />
-        </Route>
+        </Route> */}
       </Router>
     </>
   );
