@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <Router>
-        <Route exact path="https://great-vibes-frontend-assessment.netlify.app/">
+        <Route exact path="/">
           <Products />
         </Route>
-        <Route exact path="https://great-vibes-frontend-assessment.netlify.app/add">
+        <Route exact path="/add">
           <AddProduct />
         </Route>
         <Route exact path="/edit/:id">
